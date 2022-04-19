@@ -1,7 +1,7 @@
 # LÓGICA DE PROGRAMAÇÃO 
 
 ## ALGORITMO
-### UDEMY - CLEISSON - github - https://github.com/cleissommais
+### UDEMY - CLEISSON 
 São conjuntos de passos finitos e organizados que, quando executados, resolvem um determinado problema.
 Sequência de instruções ordenada, finita e não ambígua que são executadas mecanicamente pra executar uma tarefa.
 
@@ -11,9 +11,7 @@ São passos a serem seguidos por um módulo processador e seus respectivos usuá
 ### CURSO EM VÍDEO
 É uma sequência de passos lógicos, é um passos a passo. É o caminho trilhado para chegar até a solução de um determinado problema.
 É utilizado em diversas situações de raciocínio lógico e para organização e otimização de processos. 
-O Algoritmo funciona da seguinte forma, uma informação de entrada(input) passa por diversas etapas que poderão alterar seu estado, gerando uma informação de saída(output)
-
-### BOSON TREINAMENTOS
+O Algoritmo funciona da seguinte forma, uma informação de entrada(input) passa por diversas etapas que poderão alterar seu estado, gerando uma informação de saída(output).
 
 ### FUNDAÇÃO BRADESCO
 Conjunto de regras e procedimentos lógicos perfeitamente definidos que levam à solução de um problema por meio de um número finito de etapas.
@@ -21,6 +19,7 @@ Conjunto de regras e procedimentos lógicos perfeitamente definidos que levam à
 É a sequência lógica das etapas para alcançar o objetivo final (solução).
     
 ## REPRESENTAÇÃO DE ALGORITMO
+
 ### UDEMY - CLEISSON
 1. Linguagem natural -> Solução usando passas descritivos;
 2. Fluxograma -> A solução é representada usando formas gráficas;
@@ -29,7 +28,9 @@ Conjunto de regras e procedimentos lógicos perfeitamente definidos que levam à
 - Notação para elaboração de algoritmos estruturados que serão utilizados para a criação e desenvolvimento em uma linguagem de programação qualquer.
 
 ## FUNDAÇÃO BRADESCO
+
 ### LÓGICA, ALGORITMO E PSEUDOCÓDIGO
+
 #### PROGRAMAS DE COMPUTADORES
 São sequências de raciocínio lógico e instruções bem definidas que permitem ao usuário interatividade, ou seja, inserir informações com vistas a realizar tarefas para atingir um fim específico.
 
@@ -131,26 +132,17 @@ PSEUDOCÓDIGOS
 REGRAS DE PADRONIZAÇÃO  
 
 1 - Todo o algoritmo em pseudocódigo deve ser iniciado com Algoritmo:NomeDoAlgoritmo
-
 2 - O início e fim do programa são limitados pelos marcadores Início e Fim 
-
 3 - As variáveis são declaradas no início do algoritmo, abaixo do marcador VAR, da seguinte forma: NomeDaVariavel: Tipo da variável
-
 4 - Os nomes da variáveis NÃO podem:
-Iniciar por número (erro: 1nome)
-Ter espaço (erro: nome completo)
-Ter caracteres especiais (´,`,~,ç,- e outros).
-    
+    Iniciar por número (erro: 1nome)
+    Ter espaço (erro: nome completo)
+    Ter caracteres especiais (´,`,~,ç,- e outros).   
 5 - As palavras-reservadas devem ser evitadas Início, Fim, Var, Se e Senão.
-
 6 - Os nomes das variáveis são case sensitive(Considera a diferença no uso de letras maiúsculas e minúsculas.). Dessa forma, ao manipularmos variáveis, devemos usar o mesmo nome declarado no início, considerando o uso de letras maiúsculas, e minúsculas.
-
 7 - O comando Leia deve ser usado para receber (capturar) dados do usuário, fase do processamento conhecido como "Entrada de Dados".
-
 8 - O comando Escreva deve ser usado para exibir (apresentarm mostrar) dados ao usuário, fease do processamento conhecida como "Saída de Dados".
-
 9 - Os textos a serem exibidos na tela ou que devam ser inseridos como caractere são colocados entre 'aspas' (representação universal de um valor literal ou string - "Sistemas").
-
 10 - Os comentários sobre o código podem ser inseridos {entre chaves} (incomum por confundir com agrupamentos) ou inseridos utilizando // (mais comum) no início da linha de instruções. O comentário não altera a execução do código. Contudo, ele é de fundamental importância paa documentar e tornar intelígiveis as escolhas de programação realizadas no código para outros proramadores. 
 
 TIPOS DE DADOS
@@ -229,3 +221,84 @@ Bloco A
 Senao
 Bloco B
 FimSe
+
+##### ESCOLHA CASO
+Serve pra substituir a função se em alguns casos, diminuir o tamanho do código.       
+Não funciona para valores com operadores relacionais e suas operações são SOMENTE com INTEIROS
+Sintaxe:
+
+Escolha (variável)
+Caso valor
+    Bloco A
+Caso valor
+    Bloco B
+Caso valor
+    Bloco C
+OutroCaso
+    Bloco D
+FimEscolha
+
+#### Estrutura de Repetição - Repetem uma ou mais ações caso uma condição estiver sendo satisfeita.   
+##### ENQUANTO (Loop While)
+Sintaxe
+Enquanto (expressão) faca
+    Bloco
+FimEnquanto
+
+##### REPITA
+Sintaxe
+Repita
+    Bloco
+Ate (expressão)
+
+#### PARA-FACA (Loop For)
+Sintaxe
+Para <variavel> <-/de <inicio> ate <fim> [passo <salto>] faca
+Bloco
+FimPara
+
+### ROTINAS
+#### PROCEDIMENTOS - Fica abaixo da variável(VAR), e serve para realizar processos repetitivos dentro do programa, fazendo com que a quantidade de linhas de códigos diminua.
+Sintaxe:
+Procedimento RotinaPreparo()
+Inicio
+Descrição do Procedimento/Rotina
+FimProcedimento
+
+#### CONCEITOS DE PROCEDIMENTOS
+##### PASSAGEM DE PARÂMETRO
+###### TIPO 1 - POR VALOR
+Apenas o valor é copiado para dentro do parâmetro, não alterando a variável original.
+Sintaxe:
+Procedimento <NomeProcedimento>(variáveis : tipo de variável)
+Inicio
+Tarefas
+FimProcedimento 
+
+##### ESCOPO - É a característica da variável, se é global ou local. Escopo é o local onde está a variável.
+
+###### TIPO 2 - POR REFERÊNCIA 
+Incluímos a palavra VAR dentro do parâmetro do procedimento, assim o parâmetro tem uma referência automática ao valor da variável original. Realizando qualquer alteração no parâmetro, altera a variável original.
+Sintaxe
+Procedimento NomeProcedimento (var variáveis: Inteiro)                    
+Inicio
+Tarefa
+FimProcedimento  
+
+#### FUNÇÕES
+É o segundo tipo de rotina que existe, a diferença entre o procedimento é que a função tem um valor de retorno e, esse valor é guardado em uma variavel. 
+Sintaxe:
+Funcao NomeFuncao(variavel, variavel: inteiro) : inteiro
+Var
+variavel: inteiro
+Inicio
+Tarefa
+retorne variavel
+FimFuncao
+
+#### VETORES
+São chamados de variáveis compostas(por que tem vários espaços na memória) homogêneas(porque esses são do mesmo tipo de dados), ou unidimensionais(para identificar cada um dos espaços, é necessário apenas um endereço.).
+
+Sintaxe
+var
+n := vetor[1..4] de inteiro
