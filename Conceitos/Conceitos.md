@@ -185,13 +185,35 @@ Diferente de -> (<>)
 
 Lógicos
 Tabela Verdade  
-E			|	NÃO		 |	OU
-            
-P|Q|P e Q	|	P|Não P	 |	P|Q|P ou Q	
-V|V|  V		|	V| F	 |	V|V|  V
-V|F|  F		|	F| V	 |	V|F|  V
-F|V|  F		|			 |	F|V|  V
-F|F|  F		|			 |	F|F|  F
+E |
+---|
+
+P | Q | P e Q 
+---|---|---
+V | V | V
+V | F | F	
+F | V | F	
+F | F | F	
+
+
+Não |
+---|
+
+P | Não P
+---|---
+V | F
+F | V
+
+Ou |
+---|
+
+P|Q|P ou Q
+---|---|---
+V|V|  V
+V|F|  V
+F|V|  V
+F|F|  F
+
 
 Prioridade (1º NÃO, 2º E, 3º OU)
 
