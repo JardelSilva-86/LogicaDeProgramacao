@@ -1,0 +1,24 @@
+"Exercício 2 - Situação do Aluno"
+Algoritmo "SituaçãoDoAluno"
+
+Var
+N1, N2, M: Real
+
+Inicio
+Escreva ("Digite a primeira Nota: ")
+Leia (N1)
+Escreva ("Digite a segunda Nota: ")
+Leia (N2)
+M <- (N1 + N2) / 2
+EscrevaL ("A Média do Aluno foi: ", M:4:2)
+Se (M >= 7) entao
+    Escreval ("Aprovado!")
+senao
+    Se (M >= 5) e (M < 7) entao
+        Escreval ("Em recuperação!")
+    senao
+        Escreval ("Reprovado!")
+    FimSe
+FimSe
+
+Fimalgoritmo
