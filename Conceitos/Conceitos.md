@@ -21,11 +21,10 @@ Conjunto de regras e procedimentos lógicos perfeitamente definidos que levam à
 ## REPRESENTAÇÃO DE ALGORITMO
 
 ### UDEMY - CLEISSON
-1. Linguagem natural -> Solução usando passas descritivos;
-2. Fluxograma -> A solução é representada usando formas gráficas;
-3. Pseudocódigos -> É o mais próximo das linguagens de programação existentes, normalmente é usado para explicar uma solução de problema em computação.
-3.1 - Portugês Estruturado - é uma técnica narrativa baseada em PDL - Program Design Language(Linguagem de Projeto de Programa)
-- Notação para elaboração de algoritmos estruturados que serão utilizados para a criação e desenvolvimento em uma linguagem de programação qualquer.
+- Linguagem natural -> Solução usando passas descritivos;
+- Fluxograma -> A solução é representada usando formas gráficas;
+- Pseudocódigos -> É o mais próximo das linguagens de programação existentes, normalmente é usado para explicar uma solução de problema em computação;
+  - Portugês Estruturado -> é uma técnica narrativa baseada em PDL - Program Design Language(Linguagem de Projeto de Programa) - Notação para elaboração de algoritmos estruturados que serão utilizados para a criação e desenvolvimento em uma linguagem de programação qualquer.
 
 ## FUNDAÇÃO BRADESCO
 
@@ -39,17 +38,17 @@ São sequências de raciocínio lógico e instruções bem definidas que permite
 
 Não é aconselhável realizar a codificação em uma linguagem de programação antes de se desenvolver um algoritmo, pois a estrutura do algoritmo possui total importância na documentação de um programa.
 
-1. Estudo do problema
+- Estudo do problema
 Análise do problema e de seu contexto, para identificar a situação, refletir sobre suas características e apresentar as possíveis soluções.
 
-2. Estruturação do algoritmo
+- Estruturação do algoritmo
 Escolha a melhor solução possível para resolver o problema e estruturação da proposta em forma de "projeto de programa" (algoritmo).
 
-3. Desenvolvimento do código (programação)
+- Desenvolvimento do código (programação)
 Escrita do algoritmo a partir das regras e dos padrões de uma linguagem de programação específica, tal como, C#, Java, C, C++, VB, PHP. 
 É nesta etapa que ocorre a codificação do algoritmo.
 
-4. Implantação da solução
+- Implantação da solução
 Implantação do programa em situação da vida real, para verificar se o problema foi resolvido, e realização de eventuais ajustes (manutenção).
 
 #### SEQUÊNCIA LÓGICAS
@@ -60,58 +59,58 @@ São informações, ordens ou comandos que indicam a um computador o que ele dev
 
 #### DESCRIÇÃO NARRATIVA
 Regras para desenvolvimento de um algoritmo.
-1.  Seja direto
+-  Seja direto
 Escreva frases curtas e simples, com apenas um verbo
 
-2.  Seja detalhista
+-  Seja detalhista
 Descreva com detalhes, todos os passos necessários.
     
-3.  Seja lógico
+-  Seja lógico
 Encadeie as ações na ordem em que elas devem acontecer
     
-4.  Seja objetivo
+-  Seja objetivo
 Procure atingir o objetivo proposto com o menor número de passos, tomando o cuidado de não pular passos importantes.
     
-5.  Seja claro
+-  Seja claro
 Evite o uso de palavras e expressões com duplo sentido (termo conhecido tecnicamente como ambiguidade).
 
-6 - Seja compreensível
+- Seja compreensível
 Redija instruções de forma que qualquer pessoa possa entendê-las, não somente profissionais da área da informática
     
-7. Seja crítico
+- Seja crítico
 Faça a leitura crítica de seu algoritmo para melhorar a escrita e o encadeamento lógico dele.
 
 #### DIAGRAMA DE BLOCOS OU FLUXOGRAMA
 Para construir o diagrama de blocos é preciso fazer o uso padronizado dos símbolos e das palavras.
 
-1. RETÂNGULO ARREDONDADO = TERMINAL
+- RETÂNGULO ARREDONDADO = TERMINAL
 Indica o ponto de ínicio ou término de uma sequência. Deve ser utilizado com a palavra início ou fim escrita dentro da figura.
 
-2. LOSANGO = CONDIÇÃO/DECISÃO
+- LOSANGO = CONDIÇÃO/DECISÃO
 Sempre representará uma condição, dentro do mesmo haverá uma dúvida/pergunta.
 Indica o ponto de teste (verdadeiro ou falso) ou uma tomada de decisão (sim ou não). COnta com uma entrada e permite indicar duas saídas diferentes, sendo uma para cada situação/resposta.
 
-3. SETAS = FLUXO DO PROCESSAMENTO
+- SETAS = FLUXO DO PROCESSAMENTO
 Sempre indicará a direção, o sentido do fluxo de informações e instruções. Deve ser utilizada para conectar todos os símbolos do diagrama.
 
-4. RETÂNGULO = AÇÃO/PROCESSAMENTO
+- RETÂNGULO = AÇÃO/PROCESSAMENTO
 Sempre representará uma ação ou um processamento de qualquer tipo. EX: Calcular o preço final; Jogar a embalagem no lixo.
 
-5. PARALELOGRAMO = ENTRADA DE DADOS
+- PARALELOGRAMO = ENTRADA DE DADOS
 Símbolo genérico que indica a entrada ou saída de dados, respectivamente uma leitura/captura de dados ou uma gravação/apresentação da informação após o processamento, independentemente da forma como essas informações serão inseridas ou disponbilizadas aos usuários.   
-5.1. Entrada de dados (Via cartão)
+   - Entrada de dados (Via cartão)
 Indica entrada de dados, através da leitura em cartão perfurado. Este símbolo está em deseso atualmente.
-5.2. Entrada Manual (Via teclado)
+   - Entrada Manual (Via teclado)
 Indica a entrada de dados feita manualmente pelo usuário, isto é, por meio de digitação.
 EX: Digitar o preço do produto; Entrar/Digitar a nota da avaliação.
-5.3. Saída de dados (Via monitor)
+   - Saída de dados (Via monitor)
 Indica que algum resultado, dado ou informação será exibido na tela do dispositivo ao usuário.
 EX: Mostar/Exibir/Apresentar a média do aluno; Exibir o valor total do produto.
-5.4. Saída de dados (Via impressora)
+   - Saída de dados (Via impressora)
 Indica resultados ou informações que serão disponibilizados ao usuário por meio de impressão - recibos, relatórios, documentos etc.
 EX: Imprimir relatório de compra ou venda; Imprimir recibo de entrega de documento.
 
-6. Circulo = Conector
+- Circulo = Conector
 Indica o ponto a partir do qual o algoritmo ou processamento irá continuar em outro lugar, repetindo, também, este mesmo símbolo.
 Deve conter um mesmo número ou uma mesma letra em seu interior, indicando a saída com a sua respectiva entrada no fluxo.
 Funciona como um conector, que tem por objetivo dar continuidae a duas partes de um mesmo processo que se encontram escritas em locais separados.
@@ -131,26 +130,26 @@ PSEUDOCÓDIGOS
 
 REGRAS DE PADRONIZAÇÃO  
 
-1 - Todo o algoritmo em pseudocódigo deve ser iniciado com Algoritmo:NomeDoAlgoritmo
-2 - O início e fim do programa são limitados pelos marcadores Início e Fim 
-3 - As variáveis são declaradas no início do algoritmo, abaixo do marcador VAR, da seguinte forma: NomeDaVariavel: Tipo da variável
-4 - Os nomes da variáveis NÃO podem:
-    Iniciar por número (erro: 1nome)
-    Ter espaço (erro: nome completo)
-    Ter caracteres especiais (´,`,~,ç,- e outros).   
-5 - As palavras-reservadas devem ser evitadas Início, Fim, Var, Se e Senão.
-6 - Os nomes das variáveis são case sensitive(Considera a diferença no uso de letras maiúsculas e minúsculas.). Dessa forma, ao manipularmos variáveis, devemos usar o mesmo nome declarado no início, considerando o uso de letras maiúsculas, e minúsculas.
-7 - O comando Leia deve ser usado para receber (capturar) dados do usuário, fase do processamento conhecido como "Entrada de Dados".
-8 - O comando Escreva deve ser usado para exibir (apresentarm mostrar) dados ao usuário, fease do processamento conhecida como "Saída de Dados".
-9 - Os textos a serem exibidos na tela ou que devam ser inseridos como caractere são colocados entre 'aspas' (representação universal de um valor literal ou string - "Sistemas").
-10 - Os comentários sobre o código podem ser inseridos {entre chaves} (incomum por confundir com agrupamentos) ou inseridos utilizando // (mais comum) no início da linha de instruções. O comentário não altera a execução do código. Contudo, ele é de fundamental importância paa documentar e tornar intelígiveis as escolhas de programação realizadas no código para outros proramadores. 
+- Todo o algoritmo em pseudocódigo deve ser iniciado com Algoritmo:NomeDoAlgoritmo
+- O início e fim do programa são limitados pelos marcadores Início e Fim 
+- As variáveis são declaradas no início do algoritmo, abaixo do marcador VAR, da seguinte forma: NomeDaVariavel: Tipo da variável
+- Os nomes da variáveis NÃO podem:
+   - Iniciar por número (erro: 1nome)
+   - Ter espaço (erro: nome completo)
+   - Ter caracteres especiais (´,`,~,ç,- e outros).   
+- As palavras-reservadas devem ser evitadas Início, Fim, Var, Se e Senão.
+- Os nomes das variáveis são case sensitive(Considera a diferença no uso de letras maiúsculas e minúsculas.). Dessa forma, ao manipularmos variáveis, devemos usar o mesmo nome declarado no início, considerando o uso de letras maiúsculas, e minúsculas.
+- O comando Leia deve ser usado para receber (capturar) dados do usuário, fase do processamento conhecido como "Entrada de Dados".
+- O comando Escreva deve ser usado para exibir (apresentarm mostrar) dados ao usuário, fease do processamento conhecida como "Saída de Dados".
+- Os textos a serem exibidos na tela ou que devam ser inseridos como caractere são colocados entre 'aspas' (representação universal de um valor literal ou string - "Sistemas").
+- Os comentários sobre o código podem ser inseridos {entre chaves} (incomum por confundir com agrupamentos) ou inseridos utilizando // (mais comum) no início da linha de instruções. O comentário não altera a execução do código. Contudo, ele é de fundamental importância paa documentar e tornar intelígiveis as escolhas de programação realizadas no código para outros proramadores. 
 
 TIPOS DE DADOS
-Inteiro(Integer) -> Números inteiros;
-Real(Float) -> Números Fracionados;
-Caractere(Strings) -> Letras;
-Lógico/Booleanos(Booleans) -> Verdadeiro ou falso;
-Padrão camelCase -> é um padrão de boas práticas em linguagens de programação.	
+- Inteiro(Integer) -> Números inteiros;
+- Real(Float) -> Números Fracionados;
+- Caractere(Strings) -> Letras;
+- Lógico/Booleanos(Booleans) -> Verdadeiro ou falso;
+- Padrão camelCase -> é um padrão de boas práticas em linguagens de programação.	
 
 VARIÁVEIS
 É uma localização na memória RAM do cpu que é utilizada para armazenar temporariamente os dados que são utilizados pelo programa. 
