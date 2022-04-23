@@ -1,0 +1,18 @@
+Exercício 8 - Tabuada
+Algoritmo "Tabuada"
+
+Var
+c, n, r: inteiro
+
+Inicio
+c <- 0
+Escreva("Você quer saber a tabuada de qual número? ")
+Leia(n)
+
+Repita
+    r <- n * c
+    Escreval(n, " X ",c , " = ", r)
+    c <- c + 1
+Ate(c > 10)
+
+Fimalgoritmo
