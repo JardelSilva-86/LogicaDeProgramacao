@@ -1,0 +1,42 @@
+Exercício 13 - Seletor de Pessoas
+Algoritmo "SeletorDePessoas"
+
+Var
+Sexo, resp: caractere
+idade, cor, cond_H, cond_M: inteiro
+
+Inicio
+Repita
+    LimpaTela
+    Escreval("======================")
+    Escreval("  SELETOR DE PESSOAS  ")
+    Escreval("======================")
+    Escreva("Qual é o Sexo? [M/F] ")
+    Leia(Sexo)
+    Escreva("Qual a Idade? ")
+    Leia(Idade)
+    Escreval("Qual a cor do cabelo?" )
+    Escreval("--------------------")
+    Escreval("[1] Preto")
+    Escreval("[2] Castanho")
+    Escreval("[3] Loiro")
+    Escreval("[4] Ruivo")
+    Leia(cor)
+    Escreva("Você quer continuar? [S/N] ")
+    Leia(resp)
+    Se (Sexo = "M") e (idade >= 18) e (cor = 2) entao
+        cond_H <- cond_H + 1
+    FimSe
+    Se (Sexo = "F") e (Idade >= 25) e (Idade <= 30) e (cor = 3) entao
+        cond_M <- cond_M + 1
+    FimSe
+Ate (resp = "N")
+
+LimpaTela
+Escreval("======================")
+Escreval("    RESULTADO FINAL   ")
+Escreval("======================")
+Escreval("Total de homens com mais de 18 e cabelos castanhos ", cond_H)
+Escreval("Total de mulheres entre 25 e 30 e cabelos loiros ", cond_M)
+
+Fimalgoritmo
