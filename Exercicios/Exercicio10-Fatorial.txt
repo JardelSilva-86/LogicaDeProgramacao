@@ -1,0 +1,20 @@
+Exercício 3 - Fatorial
+Algoritmo "Fatorial"
+
+Var
+c, f, n: inteiro
+
+Inicio
+Escreva("Fatorial de qual você quer? ")
+Leia(f)
+c <- f
+n <- 1
+
+Repita
+    n <- n * c
+    c <- c - 1
+Ate(c = 0)
+
+Escreva("O fatorial de " ,f , " é: ", n)
+
+Fimalgoritmo
