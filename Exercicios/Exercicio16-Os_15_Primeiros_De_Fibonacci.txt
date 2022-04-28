@@ -1,0 +1,16 @@
+Exercício 3 - Os 15 Primeiros De Fibonacci - Tipo 1 
+Algoritmo "Os15PrimeirosDeFibonacci"
+
+Var
+C1, C2, C3 : inteiro
+
+Inicio
+C1 := 0
+C2 := 1
+Para C3 := 1 ate 15 faca
+    Escreva(C1)
+    C1 := C1 + C2
+    C2 := C1 - C2
+FimPara
+
+Fimalgoritmo
