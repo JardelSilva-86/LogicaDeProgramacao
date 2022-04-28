@@ -1,0 +1,19 @@
+Exercício 4 - Os 15 Primeiros De Fibonacci - Tipo 2 
+Algoritmo "Fibonacci"
+
+Var
+c, t1, t2, t3: inteiro
+
+Inicio
+t1 <- 0
+Escreva(t1)
+t2 <- 1
+Escreva(t2)
+Para c := 1 ate 13 faca
+    t3 := t1 + t2
+    Escreva(t3)
+    t1 := t2
+    t2 := t3
+FimPara
+
+Fimalgoritmo
