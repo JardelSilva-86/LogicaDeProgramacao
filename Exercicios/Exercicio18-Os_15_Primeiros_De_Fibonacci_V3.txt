@@ -1,0 +1,25 @@
+Exercício 18 - Fibonacci - Tipo 3 
+Algoritmo "Fibonacci"
+
+Var
+quant_num, contador: inteiro
+anterior, atual, proximo: inteiro
+
+Inicio
+// Condição inicial: "base da sequência"
+anterior <- 0;
+atual <- 1;
+proximo <- 1;
+
+Escreval("Digite a quantidade de números desejados:")
+Leia(quant_num)
+
+// Loop for para sequência
+Para contador de 1 ate quant_num faca
+    Escreval(proximo)
+    proximo := atual + anterior
+    anterior := atual
+    atual := proximo
+FimPara
+
+Fimalgoritmo

@@ -1,0 +1,35 @@
+Exercício 19 - Analisador de Valores
+Algoritmo "AnalisadorDeValores"
+
+Var
+cont, soma, somaPar, valor, valorDiv, valorNulo: inteiro
+media: real
+
+Inicio
+soma := 0
+valorDiv := 0
+valorNulo := 0
+somaPar := 0
+Para cont := 1 ate 5 faca
+    Escreva("Digite o ", cont, "o. valor: ")
+    Leia(valor)
+    cont := cont + 1
+    soma := soma + valor
+    Se (valor % 5 = 0) entao
+        valorDiv := valorDiv + 1
+    Fimse
+    se (valor = 0) entao
+        valorNulo := valorNulo + 1
+    fimse
+    se (valor % 2 = 0) entao
+        somaPar := somaPar + valor
+    fimse
+FimPara
+media := soma / cont
+escreval("A soma entre os valores é de: ", soma)
+escreval("A média entre os valores é de: ", media)
+escreval("Os valores divisíveis por 5 são: ", valorDiv)
+escreval("A quantidade de valores nulos é de: ", valorNulo)
+escreval("A soma dos valores pares é de: ", somaPar)
+
+Fimalgoritmo
