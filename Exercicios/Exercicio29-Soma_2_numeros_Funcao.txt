@@ -1,0 +1,23 @@
+Exercício 29 - Soma de 2 números
+Algoritmo "SomaDoisNumeros"
+
+Var
+v1, v2, s: inteiro
+
+Funcao Soma(a, b: inteiro) : Inteiro
+var
+    r: inteiro
+Inicio
+    r := a + b
+    retorne r
+FimFuncao
+
+Inicio
+    Escreva("Digite o primeiro valor: ")
+    Leia(v1)
+    Escreva("Digite o segundo valor: ")
+    Leia(v2)
+    s := Soma(v1, v2)
+    Escreva("A soma do valor",v1 , " mais o valor",v2 , " é igual", s)
+
+Fimalgoritmo
