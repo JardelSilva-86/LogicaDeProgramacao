@@ -1,0 +1,30 @@
+Exercício 4 - Situação do Aluno
+Algoritmo "SituaçãoDoAluno"
+
+Var
+N1, N2: Real
+
+Procedimento MediaAluno(a, b: Real)
+var m: Real
+Inicio
+    m := (a + b) / 2
+    Escreval(" A média do aluno foi: ", m:4:2)
+    Se (m >= 7) entao
+        Escreval(" O aluno está APROVADO!")
+    senao
+        Se (m < 7) e (m >= 5) entao
+            Escreval(" Aluno em RECUPERAÇÃO!")
+        senao
+            Escreval(" Aluno REPROVADO!")
+        Fimse
+    FimSe
+FimProcedimento
+
+Inicio
+    Escreva (" Digite a primeira Nota: ")
+    Leia (N1)
+    Escreva (" Digite a segunda Nota: ")
+    Leia (N2)
+    MediaAluno(N1, N2)
+
+Fimalgoritmo
