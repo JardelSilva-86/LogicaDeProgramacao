@@ -1,0 +1,42 @@
+Exercício 5 - Contador Inteligente Procedimento
+Algoritmo "ContadorInteligente"
+
+Var
+i, f: inteiro
+
+Procedimento MostrarLinha()
+    Inicio
+    Escreval("----------------------")
+FimProcedimento
+
+Procedimento Contador(a, b: inteiro)
+var c: inteiro
+Inicio
+    Se (a < b) entao
+        c <- a
+        Enquanto (c <= b) faca
+            Escreva(c,"..")
+            c := c + 1
+        FimEnquanto
+    Senao
+        c := a
+        Enquanto (c >= b) faca
+            Escreva(c,"..")
+            c := c - 1
+        FimEnquanto
+    FimSe
+FimProcedimento
+
+Inicio
+    EscrevaL("CONTAGEM INTELIGENTE")
+    MostrarLinha()
+    Escreva("Início: ")
+    Leia(i)
+    Escreva("Fim: ")
+    Leia(f)
+    MostrarLinha()
+    Escreval("CONTANDO")
+    MostrarLinha()
+    Contador(i, f)
+
+Fimalgoritmo
