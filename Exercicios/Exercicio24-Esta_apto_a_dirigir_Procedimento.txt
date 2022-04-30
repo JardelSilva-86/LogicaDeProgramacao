@@ -12,26 +12,26 @@ FimProcedimento
 Procedimento VerificarIdade(a, b: inteiro)
 var i: inteiro
 Inicio
-EscrevaL ("--------- STATUS -------")
-i <- a - b
-Escreval(" A sua idade é ", i, " anos!")
-Se (i >= 18) entao
-    Escreval("Você está APTO para dirigir!")
-Senao
-    Escreval("Você está INAPTO para dirigir!")
-Fimse
+    EscrevaL ("--------- STATUS -------")
+    i <- a - b
+    Escreval(" A sua idade é ", i, " anos!")
+    Se (i >= 18) entao
+        Escreval("Você está APTO para dirigir!")
+    Senao
+        Escreval("Você está INAPTO para dirigir!")
+    Fimse
 
 FimProcedimento
 
 Inicio
-MostrarLinha()
-EscrevaL (" DEPARTAMENTO DE TRANSITO")
-MostrarLinha()
-Escreva (" Ano Atual (yyyy): ")
-Leia (AnoAt)
-Escreva (" Ano de Nascimento (yyyy): ")
-Leia (AnoNas)
-VerificarIdade(AnoAt, AnoNas)
-MostrarLinha()
+    MostrarLinha()
+    EscrevaL (" DEPARTAMENTO DE TRANSITO")
+    MostrarLinha()
+    Escreva (" Ano Atual (yyyy): ")
+    Leia (AnoAt)
+    Escreva (" Ano de Nascimento (yyyy): ")
+    Leia (AnoNas)
+    VerificarIdade(AnoAt, AnoNas)
+    MostrarLinha()
 
 Fimalgoritmo
