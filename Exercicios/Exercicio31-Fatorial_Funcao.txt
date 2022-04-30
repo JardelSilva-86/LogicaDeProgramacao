@@ -1,0 +1,25 @@
+Exercício 3 - Fatorial
+Algoritmo "Fatorial"
+
+Var
+n, f: Inteiro
+
+Funcao Fatorial(a: inteiro) :inteiro
+var
+c, m: inteiro
+
+Inicio
+    m <- 1
+    Para c <- 1 ate a faca
+        m := m * c
+    FimPara
+    Retorne m
+FimFuncao
+
+Inicio
+    Escreva("Digite um número: ")
+    Leia(n)
+    f := Fatorial(n)
+    Escreva("O Fatorial de", n, "! é igual", f)
+
+Fimalgoritmo
