@@ -1,0 +1,24 @@
+Exercício 2 - Par ou Ímpar Procedimento
+Algoritmo "ParOuImparProcedimento"
+
+Var
+n: inteiro
+
+Procedimento ParOuImpar(v: inteiro)
+inicio
+
+
+Se (v % 2 = 0) entao
+    Escreval("O número",v," é PAR!")
+senao
+    Escreval("O número",v," é ÍMPAR!")
+FimSe
+
+FimProcedimento
+
+Inicio
+Escreva("Digite um número: ")
+Leia(n)
+ParOuImpar(n)
+
+Fimalgoritmo
