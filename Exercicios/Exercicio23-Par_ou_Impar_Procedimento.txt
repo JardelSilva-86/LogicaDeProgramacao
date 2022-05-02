@@ -7,7 +7,6 @@ n: inteiro
 Procedimento ParOuImpar(v: inteiro)
 inicio
 
-
 Se (v % 2 = 0) entao
     Escreval("O número",v," é PAR!")
 senao
@@ -17,8 +16,8 @@ FimSe
 FimProcedimento
 
 Inicio
-Escreva("Digite um número: ")
-Leia(n)
-ParOuImpar(n)
+    Escreva("Digite um número: ")
+    Leia(n)
+    ParOuImpar(n)
 
 Fimalgoritmo
