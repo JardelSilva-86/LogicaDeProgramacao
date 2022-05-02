@@ -5,23 +5,23 @@ Var
 B, M, Dif: inteiro
 
 Inicio
-Escreval ("-------------------------")
-Escreval ("    BANGU x MADUREIRA    ")
-Escreval ("-------------------------")
-Escreva (" Quantos gols BANGU fez?  ")
-Leia (B)
-Escreva (" Quantos gols MADUREIRA fez: ")
-Leia (M)
-Escreval ("-------------------------")
-Dif <- abs(B - M)
-Escreval ("Diferença de gols da partida: ", Dif)
-Escolha Dif
-Caso 0
-    Escreval ("Status da partida: Empate")
-Caso 1, 2, 3
-    EscrevaL ("Status da partida: Partida Normal!")
-OutroCaso
-    Escreval ("Status da partida: Goleada")
-FimEscolha
+    Escreval ("-------------------------")
+    Escreval ("    BANGU x MADUREIRA    ")
+    Escreval ("-------------------------")
+    Escreva (" Quantos gols BANGU fez?  ")
+    Leia (B)
+    Escreva (" Quantos gols MADUREIRA fez: ")
+    Leia (M)
+    Escreval ("-------------------------")
+    Dif <- abs(B - M)
+    Escreval ("Diferença de gols da partida: ", Dif)
+    Escolha Dif
+    Caso 0
+        Escreval ("Status da partida: Empate")
+    Caso 1, 2, 3
+        EscrevaL ("Status da partida: Partida Normal!")
+    OutroCaso
+        Escreval ("Status da partida: Goleada")
+    FimEscolha
 
 Fimalgoritmo
