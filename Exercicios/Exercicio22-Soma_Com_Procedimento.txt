@@ -6,15 +6,15 @@ x, y: inteiro
 
 Procedimento Soma(a, b: inteiro) 
 Inicio
-// Variáveis locais (a, b), pois só acontece as mesmas só realizam operações dentro do procedimento.
-Escreval("Recebi o valor ", a)
-Escreval("Recebi o valor ", b)
-Escreval("A soma do valores é: ", a + b)
-FimProcedimento
+    // Variáveis locais (a, b), pois só acontece as mesmas só realizam operações dentro do procedimento.
+    Escreval("Recebi o valor ", a)
+    Escreval("Recebi o valor ", b)
+    Escreval("A soma do valores é: ", a + b)
+    FimProcedimento
 
-Inicio
-x := 5
-y := 3
-Soma(x, y)
+    Inicio
+    x := 5
+    y := 3
+    Soma(x, y)
 
 Fimalgoritmo
