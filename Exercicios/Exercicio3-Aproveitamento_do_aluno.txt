@@ -5,36 +5,36 @@ Var
 N1, N2, M: Real
 
 Inicio
-Escreval ("-------------------------")
-Escreval ("  ESCOLA JAVALI CANSADO  ")
-Escreval ("-------------------------")
-Escreva (" Primeira Nota: ")
-Leia (N1)
-Escreva (" Segunda Nota: ")
-Leia (N2)
-Escreval ("-------------------------")
-M <- (N1 + N2) / 2
-EscrevaL (" Média: ", M:4:2)
-Se (M >= 9) E (M <= 10) entao
-    EscrevaL (" Aproveitamento: A")
-senao
-    Se (M >= 8) e (M < 9) entao
-        Escreval (" Aproveitamento: B")
+    Escreval ("-------------------------")
+    Escreval ("  ESCOLA JAVALI CANSADO  ")
+    Escreval ("-------------------------")
+    Escreva (" Primeira Nota: ")
+    Leia (N1)
+    Escreva (" Segunda Nota: ")
+    Leia (N2)
+    Escreval ("-------------------------")
+    M <- (N1 + N2) / 2
+    EscrevaL (" Média: ", M:4:2)
+    Se (M >= 9) E (M <= 10) entao
+        EscrevaL (" Aproveitamento: A")
     senao
-        Se (M >= 7) e (M < 8) entao
-            Escreval (" Aproveitamento: C")
+        Se (M >= 8) e (M < 9) entao
+            Escreval (" Aproveitamento: B")
         senao
-            Se (M >= 6) e (M < 7) entao
-                EscrevaL (" Aproveitamento: D")
+            Se (M >= 7) e (M < 8) entao
+                Escreval (" Aproveitamento: C")
             senao
-                Se (M >= 5) e (M < 6) entao
-                    EscrevaL (" Aproveitamento: E")
+                Se (M >= 6) e (M < 7) entao
+                    EscrevaL (" Aproveitamento: D")
                 senao
-                    EscrevaL (" Aproveitamento: F")
+                    Se (M >= 5) e (M < 6) entao
+                        EscrevaL (" Aproveitamento: E")
+                    senao
+                        EscrevaL (" Aproveitamento: F")
+                    FimSe
                 FimSe
             FimSe
         FimSe
     FimSe
-FimSe
 
 Fimalgoritmo
