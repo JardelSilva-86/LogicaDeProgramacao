@@ -6,21 +6,21 @@ Var
 AnoAt, AnoNas, i : inteiro
 
 Inicio
-EscrevaL ("------------------------")
-EscrevaL (" DEPARTAMENTO DE TRANSITO")
-EscrevaL ("------------------------")
-Escreva (" Ano Atual (yyyy): ")
-Leia (AnoAt)
-Escreva (" Ano de Nascimento (yyyy): ")
-Leia (AnoNas)
-EscrevaL ("--------- STATUS -------")
-i <- AnoAt - AnoNas
-EscrevaL (" A sua idade é", i, " anos")
-Se (i >= 18) entao
-    Escreval (" Você está APTO para dirigir!!")
-senao
-    Escreval (" Você está INAPTO para dirigir")
-FimSe
-EscrevaL ("------------------------")
+    EscrevaL ("------------------------")
+    EscrevaL (" DEPARTAMENTO DE TRANSITO")
+    EscrevaL ("------------------------")
+    Escreva (" Ano Atual (yyyy): ")
+    Leia (AnoAt)
+    Escreva (" Ano de Nascimento (yyyy): ")
+    Leia (AnoNas)
+    EscrevaL ("--------- STATUS -------")
+    i <- AnoAt - AnoNas
+    EscrevaL (" A sua idade é", i, " anos")
+    Se (i >= 18) entao
+        Escreval (" Você está APTO para dirigir!!")
+    senao
+        Escreval (" Você está INAPTO para dirigir")
+    FimSe
+    EscrevaL ("------------------------")
 
 Fimalgoritmo
