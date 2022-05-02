@@ -5,27 +5,27 @@ Var
 i, f, c: inteiro
 
 Inicio
-EscrevaL("CONTAGEM INTELIGENTE")
-EscrevaL("---------------------")
-Escreva("Início: ")
-Leia(i)
-Escreva("Fim: ")
-Leia(f)
-Escreval("---------------------")
-Escreval("CONTANDO")
-Escreval("---------------------")
-Se (i < f) entao
-    c <- i
-    Enquanto (c <= f) faca
-    Escreva(c,"..")
-    c <- c + 1
-    FimEnquanto
-senao
-    c <- i
-    Enquanto (c >= f) faca
-    Escreva(c,"..")
-    c <- c - 1
-    FimEnquanto
-FimSe
+    EscrevaL("CONTAGEM INTELIGENTE")
+    EscrevaL("---------------------")
+    Escreva("Início: ")
+    Leia(i)
+    Escreva("Fim: ")
+    Leia(f)
+    Escreval("---------------------")
+    Escreval("CONTANDO")
+    Escreval("---------------------")
+    Se (i < f) entao
+        c <- i
+        Enquanto (c <= f) faca
+        Escreva(c,"..")
+        c <- c + 1
+        FimEnquanto
+    senao
+        c <- i
+        Enquanto (c >= f) faca
+        Escreva(c,"..")
+        c <- c - 1
+        FimEnquanto
+    FimSe
 
 Fimalgoritmo
