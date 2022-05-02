@@ -7,29 +7,29 @@ q_a, c: inteiro
 melhorAluno, a: caractere
 
 Inicio
-EscrevaL("------------------------")
-EscrevaL(" ESCOLA SANTA PACIENCIA ")
-EscrevaL("------------------------")
-Escreva("Quantos alunos tem na turma? ")
-Leia(q_a)
-EscrevaL("------------------------")
-c <- 1
+    EscrevaL("------------------------")
+    EscrevaL(" ESCOLA SANTA PACIENCIA ")
+    EscrevaL("------------------------")
+    Escreva("Quantos alunos tem na turma? ")
+    Leia(q_a)
+    EscrevaL("------------------------")
+    c <- 1
 
-Enquanto (c <= q_a) faca
-    EscrevaL("ALUNO ",c)
-    Escreva("Nome do Aluno: ")
-    Leia(a)
-    Escreva("Nota do aluno: ")
-    Leia(nota)
-    EscrevaL("------------------")
-    maior <- 0
-    Se (nota > maior )entao
-        maior <- nota
-        melhorAluno <- a
-    Fimse
-    c <- c + 1
-FimEnquanto
+    Enquanto (c <= q_a) faca
+        EscrevaL("ALUNO ",c)
+        Escreva("Nome do Aluno: ")
+        Leia(a)
+        Escreva("Nota do aluno: ")
+        Leia(nota)
+        EscrevaL("------------------")
+        maior <- 0
+        Se (nota > maior )entao
+            maior <- nota
+            melhorAluno <- a
+        Fimse
+        c <- c + 1
+    FimEnquanto
 
-EscrevaL("A maior nota foi de ", melhorAluno, " com a nota ", maior)
+    EscrevaL("A maior nota foi de ", melhorAluno, " com a nota ", maior)
 
 Fimalgoritmo 
