@@ -7,25 +7,26 @@ N, Pesado: Caractere
 P, Mai: real
 
 Inicio
-LimpaTela
-Escreval("----------------------------------")
-Escreval("  D E T E C T O R  DE  P E S A D O")
-Escreval(" Maior peso até agora: ", Mai, "Kg")
-Escreval("----------------------------------")
-
-Para I <- 1 ate 5 faca
-    Escreva("Digite um nome: ")
-    Leia(N)
-    Escreva("Digite uma peso: ")
-    Leia(P)
-    Se (P > Mai) entao
-        Mai <- P
-        Pesado <- N
-    FimSe
     LimpaTela
     Escreval("----------------------------------")
     Escreval("  D E T E C T O R  DE  P E S A D O")
     Escreval(" Maior peso até agora: ", Mai, "Kg")
     Escreval("----------------------------------")
-FimPara
 
+    Para I <- 1 ate 5 faca
+        Escreva("Digite um nome: ")
+        Leia(N)
+        Escreva("Digite uma peso: ")
+        Leia(P)
+        Se (P > Mai) entao
+            Mai <- P
+            Pesado <- N
+        FimSe
+        LimpaTela
+        Escreval("----------------------------------")
+        Escreval("  D E T E C T O R  DE  P E S A D O")
+        Escreval(" Maior peso até agora: ", Mai, "Kg")
+        Escreval("----------------------------------")
+    FimPara
+
+FimAlgoritmo
