@@ -1,0 +1,28 @@
+Exercício 34 - Números Pares e Ímpares
+Algoritmo "ValoresParesEImpares"
+
+Var
+val: vetor[1..7] de inteiro
+i, TotPar, TotImpar: inteiro
+
+Inicio
+    TotPar := 0
+    TotImpar := 0
+    Para i <- 1 ate 3 faca
+        Escreva("Digite o", i, "o. valor: ")
+        Leia(val[i])
+    Fimpara
+
+    Para i <- 1 ate 3 faca
+        Se (val[i] % 2 = 0) entao
+            Escreval("Valor PAR na posição", i)
+            TotPar := TotPar + 1
+        senao
+            Escreval("Valor ÍMPAR na posição", i)
+            TotImpar := TotImpar + 1
+        Fimse
+    Fimpara
+    Escreval("O total de números pares é de: ", TotPar)
+    Escreval("O total de números ímpares é de: ", TotImpar)
+
+Fimalgoritmo
