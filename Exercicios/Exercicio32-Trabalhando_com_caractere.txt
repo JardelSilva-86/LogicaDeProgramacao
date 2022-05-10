@@ -1,0 +1,38 @@
+Exercício 32 - Trabalhando com caracteres
+Algoritmo "TrabalhandoComCaracteres"
+
+Var
+n, inverso: caractere
+c: inteiro
+
+Procedimento MostrarLinha()
+Inicio
+    Escreval("---------------------")
+FimProcedimento
+
+Inicio
+    Escreva("Digite seu nome: ")
+    Leia(n)
+    MostrarLinha()
+    Escreval("O total de letras do seu nome é ", Compr(n))
+    MostrarLinha()
+    Escreval("Seu nome em maiúsculas fica ", maiusc(n))
+    MostrarLinha()
+    Escreval("Seu nome em minúsculas fica ", minusc(n))
+    MostrarLinha()
+    Escreval("A primeira letra do seu nome é ", Copia(n, 1, 1))
+    MostrarLinha()
+    Escreval("A última letra do seu nome é ", Copia(Maiusc(n), Compr(n), 1))
+    MostrarLinha()
+    Escreval("Seu nome tem a letra D na posição ", Pos("D", Maiusc(n)))
+    MostrarLinha()
+    Escreval("O código da letra A é ", Asc("A"))
+    MostrarLinha()
+    Escreval("A letra de código 65 é ", carac(65))
+    MostrarLinha()
+    Para c <- Compr(n) ate 1 passo -1 faca
+        inverso := inverso + Copia(Maiusc(n),C ,1 )
+    FimPara
+    Escreval("Seu nome inverso fica ", inverso)
+
+Fimalgoritmo
